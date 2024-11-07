@@ -1,4 +1,4 @@
-package B_polymorphism;
+package b_polymorphism;
 
 public class child02 extends father{
     public void play(){

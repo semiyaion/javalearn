@@ -1,11 +1,13 @@
-package B_polymorphism;
+package b_polymorphism;
 
 import java.util.ArrayList;
 
 public class Test {
     public static void main(String[] args) {
-        ArrayList<father> list = new ArrayList<>();/**新建集合，泛型中father表示只能存储fater类型的对象，意味着集合中每个元素都是father类型或者其子类*/
-        list.add(new child01());/**集合中添加重写的方法*/
+        ArrayList<father> list = new ArrayList<>();
+        /**新建集合，泛型中father表示只能存储fater类型的对象，意味着集合中每个元素都是father类型或者其子类*/
+        list.add(new child01());
+        /**集合中添加重写的方法*/
         list.add(new child02());
         list.add(new father());
         for (father father : list) {
