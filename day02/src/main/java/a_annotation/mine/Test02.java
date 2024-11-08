@@ -1,11 +1,14 @@
 package a_annotation.mine;
 
+import org.junit.Test;
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 public class Test02 {
+    @Test
     @Myannot(name="张强",age=17,id=1076409766,school = "睢宁")
     public void test(){
 
