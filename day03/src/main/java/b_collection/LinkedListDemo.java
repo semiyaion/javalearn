@@ -7,6 +7,7 @@ public class LinkedListDemo {
         //LinkedList继承Collection,底层实现是一个双向链表元素可重复，有索引，线程不安全
         //与ArryList不同，LinkedList的删除操作复杂度为O（1）而ArryList的最坏复杂度为o（n）
         //ArrtList复制数组，从中间删除数组都要移动大量数据很浪费时间
+        //双向链表
         LinkedList<String> list = new LinkedList<>();
         list.add("沉默张三");
         list.add("开朗小李");

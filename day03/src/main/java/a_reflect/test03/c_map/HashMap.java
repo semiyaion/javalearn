@@ -7,8 +7,8 @@ import java.util.Set;
 public class HashMap {
     public static void main(String[] args) {
         /*HashMap
-        * 1.继承的是双联集合map接口，key值唯一，但value可重复
-        * 无序，无索引，线程不安全，可以存储null值，数据结构是哈希表*/
+         * 1.继承的是双联集合map接口，key值唯一，但value可重复
+         * 无序，无索引，线程不安全，可以存储null值，数据结构是数组，链表，红黑树*/
         java.util.HashMap<String, Integer> map = new java.util.HashMap<>();
         //增
         map.put("清华",1);
