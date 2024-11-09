@@ -8,6 +8,7 @@ public class MyThread implements Runnable {
     public void run() {
         while (true) {
             synchronized (obj) {
+                //锁对象一定要唯一，钥匙一定只能有一个
                 if (ticket < 100) {
                     try {
                         Thread.sleep(100);

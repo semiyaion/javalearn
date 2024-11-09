@@ -1,4 +1,4 @@
-package thread.secure;
+package thread.secure.example01;
 
 public class MyThread implements Runnable {
     Integer ticket = 100;

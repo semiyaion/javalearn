@@ -1,4 +1,4 @@
-package thread.secure;
+package thread.secure.example01;
 
 public class Example {
     public static void main(String[] args) {

@@ -5,32 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fc8d4ea-4a28-4666-bcac-884e2b2b8614" name="更改" comment="day01after">
-      <change afterPath="$PROJECT_DIR$/day04/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/Concurrent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/callable/CallableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/callable/MyCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/churang/Mine03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/churang/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/join/Mythod04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/join/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/runnable/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/runnable/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/secure/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/secure/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/setdaemon/Mine01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/setdaemon/Mine02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/setdaemon/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/setpripriority/Mine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/setpripriority/Pripriority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/synchronizedtest/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/threadtest/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/threadtest/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/endsleep/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/secure/example02/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/stop/tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/synchronizedtest/classlock/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/synchronizedtest/duixiang/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/synchronizedtest/method/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/synchronizedtest/method/Demo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/timer/LogTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/src/main/java/thread/timer/TimerDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/java/a_reflect/test03/c_map/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/a_reflect/test03/c_map/HashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/src/main/java/b_collection/LinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/b_collection/LinkedListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/src/main/java/thread/callable/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/day04/src/main/java/thread/callable/MyCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/src/main/java/thread/secure/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/day04/src/main/java/thread/secure/example01/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/src/main/java/thread/secure/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/day04/src/main/java/thread/secure/example01/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/src/main/java/thread/synchronizedtest/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/day04/src/main/java/thread/synchronizedtest/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/src/main/java/thread/synchronizedtest/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/day04/src/main/java/thread/synchronizedtest/MyThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +60,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/javaxl/javaxl/day04/src/main/java/thread/synchronizedtest",
+    "last_opened_file_path": "E:/javalianxi/IfText",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
@@ -80,6 +70,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="thread.synchronizedtest" />
       <recent name="a_annotation.yuan.doc" />
       <recent name="h_generic.limit.use_and" />
       <recent name="h_generic" />
@@ -145,7 +136,7 @@
       <workItem from="1731022774378" duration="14363000" />
       <workItem from="1731050930024" duration="14361000" />
       <workItem from="1731076709883" duration="4786000" />
-      <workItem from="1731111091951" duration="16057000" />
+      <workItem from="1731111091951" duration="32309000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <created>1730874619965</created>
@@ -189,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1731113999538</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="3">
+      <created>1731136829548</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731136829548</updated>
+    </task>
+    <task id="LOCAL-00008" summary="3">
+      <created>1731136909491</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731136909491</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +204,9 @@
     <MESSAGE value="demo" />
     <MESSAGE value="day01night" />
     <MESSAGE value="day01after" />
-    <option name="LAST_COMMIT_MESSAGE" value="day01after" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
