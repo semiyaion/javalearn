@@ -2,6 +2,7 @@ package b_collection;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 
 public class ArrylistDemo {
         //ArryLiit：底层由数组实现，有索引，线程不安全，存放数据按照存放顺序排列，允许重复
@@ -64,7 +65,16 @@ public class ArrylistDemo {
             //set更改
             list.set(0,56);
 
+            //继承Collection的接口都可以使用迭代器Iterator
+            Iterator<Object> it = list.iterator();
+            while (it.hasNext()){
+                System.out.println(it.next());
+                //迭代后，迭代器会指向最后元素
+                //如果再次next会报异常
+                //如果希望再次遍历，需要重置迭代器
 
+            }
+            it = list.iterator();//迭代器充值
 
 
         }

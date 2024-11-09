@@ -1,4 +1,8 @@
-package b_collection;
+package a_reflect.test03.c_map;
+
+import java.util.Collection;
+import java.util.Map;
+import java.util.Set;
 
 public class HashMap {
     public static void main(String[] args) {
@@ -28,7 +32,16 @@ public class HashMap {
         * 在1.8之前是数组加链表
         * 在1.8之后是数组加链表加红黑树，当所存的值大于8时，就会将链表转换成红黑树
         * key值值重复value不可重复的原因，在hashmap的使用中，key和value会根据key的hash值存放到指定的数组中，当出现hash冲突时候，会比较两者间的value值
-        * 若一致，则直接覆盖，说不一致则用链表的方法将其追加在上一个value值后*/
+        * 若一致，则直接覆盖，不一致则用链表的方法将其追加在上一个value值后当有8条链时会自动转换成红黑树*/
+        Collection<Integer> values = map.values();
+        System.out.println(values);
+        //获取所有的value值
+        Set<String> keySet = map.keySet();
+        System.out.println(keySet);
+        //获取所有的key值
+        Set<Map.Entry<String, Integer>> entries = map.entrySet();
+        System.out.println(entries);
+        //将所有key和value都放在set集合中
 
     }
 }
