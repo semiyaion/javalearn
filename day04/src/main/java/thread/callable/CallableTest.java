@@ -15,7 +15,7 @@ public class CallableTest {
         Thread t = new Thread(ft);
         t.start();
         //获取多线程运行的结果
-        Integer i = ft.get();
+        int i = ft.get();
         System.out.println(i);
 
 

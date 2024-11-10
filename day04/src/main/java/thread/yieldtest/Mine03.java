@@ -1,4 +1,4 @@
-package thread.churang;
+package thread.yieldtest;
 
 public class Mine03 implements Runnable {
     @Override

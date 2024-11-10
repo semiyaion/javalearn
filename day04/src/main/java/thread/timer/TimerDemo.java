@@ -12,6 +12,7 @@ public class TimerDemo {
         SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy-MM-DD HH:mm:ss");
         Date date = sdf1.parse("2024-11-9 19:41:00");
         timer.schedule(new LogTimer(), date, 1000);
+        //任务，开始时间，任务间隔
 
     }
 }

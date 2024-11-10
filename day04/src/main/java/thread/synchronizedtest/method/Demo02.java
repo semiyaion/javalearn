@@ -9,6 +9,8 @@ public class Demo02 implements Runnable {
         method();
     }
 
+    //在实例方法上添加synchronized关键字后，整个方法体可以被看做同步代码块
+    //  共享对象的随想锁一定是this的
     public static synchronized void method() {
         System.out.println(Thread.currentThread().getName() + "开始了");
         try {

@@ -1,4 +1,4 @@
-package thread.churang;
+package thread.yieldtest;
 
 public class Test {
     public static void main(String[] args) {
