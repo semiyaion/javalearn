@@ -18,8 +18,6 @@ public class PhaserDemo {
      * 终止：onAdvance*/
 
     public static void main(String[] args) {
-        Phaser phaser = new Phaser(3) {
 
-        }
     }
 }
