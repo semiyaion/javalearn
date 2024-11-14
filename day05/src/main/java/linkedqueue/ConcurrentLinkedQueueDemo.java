@@ -4,6 +4,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 
 class PutThread extends Thread {
     private ConcurrentLinkedQueue<Integer> clq;
+    //依靠的时CAS机制
 
     //有参构造
     public PutThread(ConcurrentLinkedQueue<Integer> clq) {
